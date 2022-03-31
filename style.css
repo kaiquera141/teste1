@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+ 
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: #FFFFFF url("cabecalho.jpg");
+    
+    
+}
+.cabecalho-imagem {
+    height: 400x;
+    width: 300px; height: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.cabecalho-menu-item-botao{
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family:'Sarala', cursive;
+    font-weight: 100;
+    font-size: 18px;
+    color: #2F2325;
+    margin-right: -50px;
+}
+
+.cabecalho-menu-item-botao:hover {
+    background-color: rgba(251, 251, 251, 0.53)
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff2E7;
+    margin-bottom: 48px;
+    background: url("fundo.jpg") 100%;
+    width: 200px: center;
+    align-items: center;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:'Righteous', cursive;
+    font-size: 55px;
+    color: #f5f5f5;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family:'Sarala', cursive;
+    font-weight: 400;
+    font-size: 33px;
+    color: #f5f5f5;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.comando-principal-botao {
+    background-color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family:'Sarala', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2F2325;
+    margin-left: 600px;
+    margin-top: 40px;
+    
+}
+
+.comando-principal-botao:hover {
+    background-color: rgba(255, 255, 255, 0.53)
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+
+.conteudo-ante-secundario {
+    font-size: 50px;
+    
+    margin-top: 170px;
+    font-size: 60px;
+    background-color: #724c4c;
+    
+}
